@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Page</title>
+</head>
+<body>
+    <h1>Welcome to the {{ menu_path }}</h1>
+    <h2>Click on child elements</h2>
+    <br>
+    <br>
+    {% load menu_tags %}
+    {% draw_menu 'main' %}
+</body>
+</html>
