@@ -30,4 +30,9 @@ python3 manage.py runserver
 
 ```
 
+## Как только вы увидите:
+```bash
+Successfully tagged task_up_trader:latest
+Watching for file changes with StatReloader
+```
 ## Перейдите по адресу: localhost:8000 (127.0.0.1:8000)
